@@ -1,0 +1,29 @@
+ReactDom.render(
+    // jsx
+) is responsible to render react app into browser
+
+reportwebvitals - create react app gave a default performance relayer to mearsure and analyze the performance of your application using different matrix
+you just need to pass a function into reportwebvital inside index.js file to measuire performance
+this function is fired when the final calculation of passed function is one on the page
+Web Vitals are a set of useful metrics that aim to capture the user experience of a web page. In Create React App, a third-party library is used to measure these metrics (web-vitals).
+
+build is laverageing webpack and babel to modularize and bundle our code
+eject- babel, webpack
+    babel convert react code into old version of js so that all type of broweser can understand our code
+    webpack - modularize and bundel out our react code into js code 
+
+manifest.json - is use to create prograsive web app to access app offline
+
+---------------
+in react - if class extend Component than it will have render method [ render(){} ]
+
+ changeName() {
+    this.setState((state) => {
+      return {
+        name: 'Askhita',
+        company: state.company
+      }
+    }, () => {
+      console.log(this.state)
+    })
+  }
